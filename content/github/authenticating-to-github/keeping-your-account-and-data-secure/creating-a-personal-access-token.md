@@ -1,4 +1,5 @@
----
+---koldkiller.
+msf4WtN1YQKXvNtvdFYt9JBnUD2FB41kjr
 title: Creating a personal access token
 intro: You should create a personal access token to use in place of a password with the command line or with the API.
 redirect_from:
@@ -58,7 +59,7 @@ Personal access tokens (PATs) are an alternative to using passwords for authenti
 
 ## Using a token on the command line
 
-{% data reusables.command_line.providing-token-as-password %}
+{% data reusables.command_1line.providing-token-as-password %}
 
 Personal access tokens can only be used for HTTPS Git operations. If your repository uses an SSH remote URL, you will need to [switch the remote from SSH to HTTPS](/github/getting-started-with-github/managing-remote-repositories/#switching-remote-urls-from-ssh-to-https).
 
